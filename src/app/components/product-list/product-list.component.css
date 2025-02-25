@@ -1,0 +1,16 @@
+/* src/app/components/product-list/product-list.component.css */
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  li.on-sale {
+    background-color: yellow;
+  }
